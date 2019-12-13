@@ -1,0 +1,2407 @@
+fileFormatVersion: 2
+guid: 151ff64c51feae948a6b27f7800b9ea1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4392514298510944346
+    second: S31-Civilians-01_0_0
+  - first:
+      213: 3778805185360989763
+    second: S31-Civilians-01_0_1
+  - first:
+      213: 8486953259241443991
+    second: S31-Civilians-01_0_2
+  - first:
+      213: -7992563551652354920
+    second: S31-Civilians-01_0_3
+  - first:
+      213: -374156659144015906
+    second: S31-Civilians-01_0_4
+  - first:
+      213: -5203135031454834085
+    second: S31-Civilians-01_0_5
+  - first:
+      213: 6269093671554549839
+    second: S31-Civilians-01_0_6
+  - first:
+      213: 606861031036149187
+    second: S31-Civilians-01_0_7
+  - first:
+      213: 934617300629720636
+    second: S31-Civilians-01_0_8
+  - first:
+      213: -4134680770714630608
+    second: S31-Civilians-01_0_9
+  - first:
+      213: -4084474616724993845
+    second: S31-Civilians-01_0_10
+  - first:
+      213: 8666776373891800213
+    second: S31-Civilians-01_0_11
+  - first:
+      213: 5897766591354548217
+    second: S31-Civilians-01_0_12
+  - first:
+      213: -2862205110677602756
+    second: S31-Civilians-01_0_13
+  - first:
+      213: -8356126521325991872
+    second: S31-Civilians-01_0_14
+  - first:
+      213: 6062776478004456711
+    second: S31-Civilians-01_0_15
+  - first:
+      213: -7718680631056018686
+    second: S31-Civilians-01_0_16
+  - first:
+      213: 8099997699093762662
+    second: S31-Civilians-01_0_17
+  - first:
+      213: -9131561674586195539
+    second: S31-Civilians-01_0_18
+  - first:
+      213: -2993290559837398352
+    second: S31-Civilians-01_0_19
+  - first:
+      213: -498608060732783227
+    second: S31-Civilians-01_0_20
+  - first:
+      213: -5064761751737430334
+    second: S31-Civilians-01_0_21
+  - first:
+      213: 3025739175219886292
+    second: S31-Civilians-01_0_22
+  - first:
+      213: -4667173433587408850
+    second: S31-Civilians-01_0_23
+  - first:
+      213: 5251359374551586539
+    second: S31-Civilians-01_0_24
+  - first:
+      213: 1029742713256961066
+    second: S31-Civilians-01_0_25
+  - first:
+      213: -2715783789014255082
+    second: S31-Civilians-01_0_26
+  - first:
+      213: 1134226357586720558
+    second: S31-Civilians-01_0_27
+  - first:
+      213: 8496226260086177975
+    second: S31-Civilians-01_0_28
+  - first:
+      213: 8337602236740788488
+    second: S31-Civilians-01_0_29
+  - first:
+      213: -8905000243435251574
+    second: S31-Civilians-01_0_30
+  - first:
+      213: 3222468148116329773
+    second: S31-Civilians-01_0_31
+  - first:
+      213: -1866788703121257947
+    second: S31-Civilians-01_0_32
+  - first:
+      213: -4645552521327959665
+    second: S31-Civilians-01_0_33
+  - first:
+      213: 1462789794974141910
+    second: S31-Civilians-01_0_34
+  - first:
+      213: 827468092663559838
+    second: S31-Civilians-01_0_35
+  - first:
+      213: 7573229528283117347
+    second: S31-Civilians-01_0_36
+  - first:
+      213: 4834355914935354778
+    second: S31-Civilians-01_0_37
+  - first:
+      213: 7354148381137450376
+    second: S31-Civilians-01_0_38
+  - first:
+      213: 2414668864205232522
+    second: S31-Civilians-01_0_39
+  - first:
+      213: 1767994021220774813
+    second: S31-Civilians-01_0_40
+  - first:
+      213: 4719784649000826495
+    second: S31-Civilians-01_0_41
+  - first:
+      213: 8261106157322353367
+    second: S31-Civilians-01_0_42
+  - first:
+      213: 1544596823519967761
+    second: S31-Civilians-01_0_43
+  - first:
+      213: 4143458457913072107
+    second: S31-Civilians-01_0_44
+  - first:
+      213: 4975383796575286607
+    second: S31-Civilians-01_0_45
+  - first:
+      213: -905928853087069910
+    second: S31-Civilians-01_0_46
+  - first:
+      213: 1323574523724213637
+    second: S31-Civilians-01_0_47
+  - first:
+      213: 8968337785266782724
+    second: S31-Civilians-01_0_48
+  - first:
+      213: -6417465848981371243
+    second: S31-Civilians-01_0_49
+  - first:
+      213: -6636823170872382308
+    second: S31-Civilians-01_0_50
+  - first:
+      213: -7464929922339931025
+    second: 1
+  - first:
+      213: -3208536008508724615
+    second: 2
+  - first:
+      213: -2739278427798627203
+    second: 3
+  - first:
+      213: 1138090286523022350
+    second: S31-Civilians-01_0_54
+  - first:
+      213: 1018010212925235936
+    second: S31-Civilians-01_0_55
+  - first:
+      213: -5780287367851049362
+    second: S31-Civilians-01_0_56
+  - first:
+      213: 7202103968792053488
+    second: S31-Civilians-01_0_57
+  - first:
+      213: 2507918077025020734
+    second: S31-Civilians-01_0_58
+  - first:
+      213: 2299735722743205674
+    second: S31-Civilians-01_0_59
+  - first:
+      213: -4630279894507305326
+    second: S31-Civilians-01_0_60
+  - first:
+      213: -1576166450986314779
+    second: S31-Civilians-01_0_61
+  - first:
+      213: -6064665358301327311
+    second: S31-Civilians-01_0_62
+  - first:
+      213: 9019489379919086426
+    second: 4
+  - first:
+      213: -7574689014175634007
+    second: 5
+  - first:
+      213: -6535428627372889614
+    second: 6
+  - first:
+      213: -5055412877210648953
+    second: S31-Civilians-01_0_66
+  - first:
+      213: 5261815929598826387
+    second: S31-Civilians-01_0_67
+  - first:
+      213: 1356727501621056839
+    second: S31-Civilians-01_0_68
+  - first:
+      213: 1124451495619656524
+    second: S31-Civilians-01_0_69
+  - first:
+      213: 2342405093598537187
+    second: S31-Civilians-01_0_70
+  - first:
+      213: 1172725963728171606
+    second: S31-Civilians-01_0_71
+  - first:
+      213: 5412675157330801891
+    second: S31-Civilians-01_0_72
+  - first:
+      213: -346755740858843997
+    second: S31-Civilians-01_0_73
+  - first:
+      213: 8267648117410473505
+    second: S31-Civilians-01_0_74
+  - first:
+      213: 4429652622636968695
+    second: 7
+  - first:
+      213: 8117518699688542660
+    second: 8
+  - first:
+      213: -5418061497182269564
+    second: 9
+  - first:
+      213: -1238747197493145485
+    second: S31-Civilians-01_0_78
+  - first:
+      213: 8302801524199027516
+    second: S31-Civilians-01_0_79
+  - first:
+      213: -8167646896099233438
+    second: S31-Civilians-01_0_80
+  - first:
+      213: -3119115882172951244
+    second: S31-Civilians-01_0_81
+  - first:
+      213: 8682001303456086560
+    second: S31-Civilians-01_0_82
+  - first:
+      213: 5875519138488320059
+    second: S31-Civilians-01_0_83
+  - first:
+      213: -8801108291611535997
+    second: S31-Civilians-01_0_84
+  - first:
+      213: -6800732603127859559
+    second: S31-Civilians-01_0_85
+  - first:
+      213: 7653659841320290998
+    second: S31-Civilians-01_0_86
+  - first:
+      213: -3251647388801442028
+    second: 10
+  - first:
+      213: -6916703311603418627
+    second: 11
+  - first:
+      213: 7275894733619642804
+    second: 12
+  - first:
+      213: -4304166693122090286
+    second: S31-Civilians-01_0_90
+  - first:
+      213: -4348010872185733418
+    second: S31-Civilians-01_0_91
+  - first:
+      213: -4055602111916755268
+    second: S31-Civilians-01_0_92
+  - first:
+      213: 6127388265759022794
+    second: S31-Civilians-01_0_93
+  - first:
+      213: -641697775814907948
+    second: S31-Civilians-01_0_94
+  - first:
+      213: 672739839714841205
+    second: S31-Civilians-01_0_95
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cce827858707641a56df329cb244dd
+      internalID: 4392514298510944346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92c876ab7dfac94e8976b4029a19394
+      internalID: 3778805185360989763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a66e0d1ad6f25347b8fd85bb4c34600
+      internalID: 8486953259241443991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7843201f7889ff149bd366210c97c600
+      internalID: -7992563551652354920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7936ba979eebb445815e5951b4faf13
+      internalID: -374156659144015906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6622f83971b75424993b0d51ed057ac2
+      internalID: -5203135031454834085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38271ef26728ef149afb42ae9627c048
+      internalID: 6269093671554549839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96d2ec576c9c6a43868fdc133bde06a
+      internalID: 606861031036149187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89607a742fe26f643938eae120cd619b
+      internalID: 934617300629720636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec4a5dfef9b42b488488f7e66de4221
+      internalID: -4134680770714630608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c6edce2467e6549a90f1ca1a39c4e3
+      internalID: -4084474616724993845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 220.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0a0c55f0fd8a74089130437713de1f
+      internalID: 8666776373891800213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84aede624e5db4048a65a6b2ac28a07a
+      internalID: 5897766591354548217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cda28e4a264c954eae12eb09f009d2a
+      internalID: -2862205110677602756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51d93007bc30a54dbd125907b3521e9
+      internalID: -8356126521325991872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccc6cc205b87274a952e48f7d4950bb
+      internalID: 6062776478004456711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dda099daf87f4f4c9c5b41b6da2345f
+      internalID: -7718680631056018686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_17
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7bd4c264f028c46841e42fd2b0d118
+      internalID: 8099997699093762662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d79f7806fd65a84bbf500bc8c7c9138
+      internalID: -9131561674586195539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a39bd409e026f4f9e58b81cb2e694c
+      internalID: -2993290559837398352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d8cc6510d5a6d48a9d565a2a837184
+      internalID: -498608060732783227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61fa482507c9d5469e33af100ecef73
+      internalID: -5064761751737430334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e081201b35142f4bafacd695a4addd6
+      internalID: 3025739175219886292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_23
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 189.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d32fe18077cae4eb3da2048161f210
+      internalID: -4667173433587408850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df19574a92818954bbff856db6921c17
+      internalID: 5251359374551586539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff8d17a22da9884dba29293dd3ad710
+      internalID: 1029742713256961066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_26
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb57d2e97f057984694f5bae3cc3b927
+      internalID: -2715783789014255082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f36c4106bdd064db285fbb1d95a450
+      internalID: 1134226357586720558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe877c281aebb974b8c9304c6ea9708f
+      internalID: 8496226260086177975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9234c33e759e6fe479f054e137b9ecd4
+      internalID: 8337602236740788488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_30
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bd48320c9532f4b81320b4828fe3b5
+      internalID: -8905000243435251574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f5e4fde7f72e947ba4ce975fef3e95
+      internalID: 3222468148116329773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_32
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e397768ecf53cc4b86c954cafd257cc
+      internalID: -1866788703121257947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_33
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aff4a0f646ebc645b03c0c65bd1b523
+      internalID: -4645552521327959665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_34
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6d8713c406388479d120f3c31db704
+      internalID: 1462789794974141910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_35
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 158.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492b46005e628154ea85efa01de32e0e
+      internalID: 827468092663559838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecdb1616d90d994b930c8ea4efa8ff9
+      internalID: 7573229528283117347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_37
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c09a29e03d341c4fb9d6573c155bb34
+      internalID: 4834355914935354778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_38
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f41b0e2c04e5974e87d1b1cb2c71ac9
+      internalID: 7354148381137450376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_39
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3ee9740106f7946b4e436ba21f7ccc
+      internalID: 2414668864205232522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_40
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d803924eb030887438de2f84975fe8c8
+      internalID: 1767994021220774813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700525878db33df49af354451c057187
+      internalID: 4719784649000826495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_42
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462b38ffd1593aa44aa109c6295cebb1
+      internalID: 8261106157322353367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_43
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1f5c944ad8bc84b997d3666dcde4c4
+      internalID: 1544596823519967761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_44
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449264973d011644a8dd5517dc1e6442
+      internalID: 4143458457913072107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_45
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5df4a52964e2c46892cf03418c1178
+      internalID: 4975383796575286607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_46
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b6d576deee48748846ac8eb9b7b6a0
+      internalID: -905928853087069910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_47
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 127.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a94d1305d5da244a40863f4b38c29b
+      internalID: 1323574523724213637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 96.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b34fa303db41e40a45d7fecd268d66
+      internalID: 8968337785266782724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_49
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 96.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54916c43b57bafa4da1496f100a68f6c
+      internalID: -6417465848981371243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_50
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 96.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e0732f4a916944582f17ec5dd7ea5a
+      internalID: -6636823170872382308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 94
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1283b0d0e9316347a54812b5561f291
+      internalID: -7464929922339931025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 94
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0defe3070ba13d04aa58973a5d172a7d
+      internalID: -3208536008508724615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 94
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40c67f1e8e42d74593900147fab8b52
+      internalID: -2739278427798627203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_54
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 96.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e8341e874d4eb43abbc20387e786e8
+      internalID: 1138090286523022350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_55
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 96.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6f5a56e43492344b2531546d9038cd
+      internalID: 1018010212925235936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_56
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 96.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fab8d79ace4ed42958e35ab39fa951
+      internalID: -5780287367851049362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_57
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 96.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40d80f411c0ed042b2c51c44b8c350e
+      internalID: 7202103968792053488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_58
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 96.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5092a7ad47b0f024ab694c12b091f06c
+      internalID: 2507918077025020734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_59
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 96.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088d1d8155aa56947b9a43f692f82e97
+      internalID: 2299735722743205674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 65.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3487b3a2e563d5241b9d102caf36f199
+      internalID: -4630279894507305326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_61
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 65.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9ac17e17025104e92411454b03d9cc
+      internalID: -1576166450986314779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_62
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 65.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a090ad8d629f7743a30ed0e4a512a79
+      internalID: -6064665358301327311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 63
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f35ab8ddd5d9ae459a96ee58a14fdcb
+      internalID: 9019489379919086426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 63
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62010c665afbb74a94a7910264edfe7
+      internalID: -7574689014175634007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 63
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8998d8e9a387a1428af748d8d1b56a6
+      internalID: -6535428627372889614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_66
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 65.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3c723dedda71148b5b32cfe3f95708
+      internalID: -5055412877210648953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_67
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9469fd7bc26c9514d8f0707745f73123
+      internalID: 5261815929598826387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_68
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 65.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8336f1cd9474a448430d1aadfb5ff9
+      internalID: 1356727501621056839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_69
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 65.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faeca9c1adba0142b5b2d8cd564c949
+      internalID: 1124451495619656524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_70
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 65.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285eec117a0d4d446a87dbe42bfff44c
+      internalID: 2342405093598537187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_71
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 65.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a509c4ace32c6184d95f96ec640a2e30
+      internalID: 1172725963728171606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 34.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3483d1960dc89a5479245dacfcea22bb
+      internalID: 5412675157330801891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_73
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 34.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d339a9a5ad3eb3b4cb6f54ab5b50edfa
+      internalID: -346755740858843997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_74
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 34.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d022dc9e8a05ac4e8c3a3f05bb6d8e2
+      internalID: 8267648117410473505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 32
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393dc7ace4224fc46a9f2d14a13a145d
+      internalID: 4429652622636968695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 32
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcd548315df75841b7a5c5337b9d5c2
+      internalID: 8117518699688542660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e295c853c6b16a498f354132d0dfe56
+      internalID: -5418061497182269564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_78
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 34.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d782c954ad749f14a86778db9381bf3d
+      internalID: -1238747197493145485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_79
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 34.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a30bfa1b953e0445a5f15536c9477dc
+      internalID: 8302801524199027516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_80
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 34.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fd02caae033804d987b75a390283c6
+      internalID: -8167646896099233438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_81
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 34.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f944cc78bbfddb41b9837c647680088
+      internalID: -3119115882172951244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_82
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 34.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8675862ec5049478045dd68776cdf1
+      internalID: 8682001303456086560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_83
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 34.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ff177544ffc204ba1014c2846b823f
+      internalID: 5875519138488320059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f776f9273f95fe64f92a5f00f6d6ecf5
+      internalID: -8801108291611535997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_85
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 3.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c140cdb826ccd474490653bda0f4d870
+      internalID: -6800732603127859559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_86
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7324c5bb10f7ff54cb1093ad80d3f471
+      internalID: 7653659841320290998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7e83787f48c4849bf514e16f1717b8
+      internalID: -3251647388801442028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66add3ec85c78b648b6d6c60ad748d9c
+      internalID: -6916703311603418627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e308fa5be20bde446bcef79efdf4da6e
+      internalID: 7275894733619642804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_90
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 3.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64206274057904e428f22d5ecc1aae06
+      internalID: -4304166693122090286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_91
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d3cc5aaf4ce3a42a3a7dd813ec5b8b
+      internalID: -4348010872185733418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_92
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bb441d9dcb68e4ba195eeddbced97f
+      internalID: -4055602111916755268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_93
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 3.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa29e09db98eee4198b897538a6f6b3
+      internalID: 6127388265759022794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_94
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d799cae65435e764e95df3e550d9a1e8
+      internalID: -641697775814907948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S31-Civilians-01_0_95
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3.75
+        width: 20.583334
+        height: 29.25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e30a9a6d438fd4995db36ba29db194
+      internalID: 672739839714841205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
