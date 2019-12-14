@@ -22,7 +22,7 @@ public class EnemyBehavior : MonoBehaviour
 
     private void ApproachPlayer()
     {
-        transform.position = Vector3.MoveTowards(transform.position, playerTransform.position,Time.deltaTime * speed)
+        transform.position = Vector3.MoveTowards(transform.position, playerTransform.position,Time.deltaTime * speed);
     }
 
 }
