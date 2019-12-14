@@ -27,20 +27,27 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dilisource/DogFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dilisource/ShootWave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerEnvir.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dilisource/EnemyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UICon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnvirCon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A8DC567-3A4E-4788-B5AC-1561569747AB/ad/d766489b/Input.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/UICon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dilisource/ShootWave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dilisource/EnemyBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnvirCon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerEnvir.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UICon.cs" />
       </list>
     </option>
   </component>
@@ -85,6 +92,7 @@
       <workItem from="1576312972379" duration="248000" />
       <workItem from="1576313335433" duration="3273000" />
       <workItem from="1576317011740" duration="8888000" />
+      <workItem from="1576327549209" duration="4851000" />
     </task>
     <servers />
   </component>

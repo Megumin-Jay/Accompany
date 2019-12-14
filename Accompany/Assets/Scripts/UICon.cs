@@ -62,12 +62,12 @@ public class UICon : MonoBehaviour
     void Update()
     {
         if(canPull)
-            pullUpMenu.transform.position = Vector3.Lerp(pullUpMenu.transform.position, pullTargetPos, Time.deltaTime);
+            pullUpMenu.transform.position = Vector3.Lerp(pullUpMenu.transform.position, pullTargetPos, 2 * Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.Escape))
             isOver = true;
         if (isOver)
         {
-            gameOverMenu.transform.position = Vector3.Lerp(gameOverMenu.transform.position, gameOverTargetPos, Time.deltaTime);
+            gameOverMenu.transform.position = Vector3.Lerp(gameOverMenu.transform.position, gameOverTargetPos, 2 * Time.deltaTime);
         }
     }
 
