@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        Debug.Log("Awake");
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+        Debug.Log("Enable");
+    }
+    private void Update()
+    {
+    }
+    private void OnDisable()
+    {
+        Debug.Log("Disable");
     }
 }
