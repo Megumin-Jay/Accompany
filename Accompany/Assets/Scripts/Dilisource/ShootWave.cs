@@ -60,7 +60,8 @@ public class ShootWave : MonoBehaviour
             GameObject go = ObjectPool.Instance.GetSoundWave();
             //TODO
             //生成的位置与小女孩朝向相关
-            go.transform.position = transform.position + dir*0.5f;//是否需要一个系数
+            //go.transform.position = transform.position + dir*0.5f;//是否需要一个系数
+            go.transform.position = transform.position;//是否需要一个系数
             go.transform.right = dir;
             go.GetComponent<Rigidbody2D>().velocity = dir;//要不要加一个系数
             yield return new WaitForSeconds(intervalOfWave);

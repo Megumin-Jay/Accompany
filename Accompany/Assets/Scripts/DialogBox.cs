@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
+using UnityEngine.UI;
 
 public class DialogBox : MonoBehaviour
 {
@@ -9,14 +11,23 @@ public class DialogBox : MonoBehaviour
     private GameObject dialogBox;
 
     private GameObject text;
+    private Text _text;
 
+    /*画布*/
     public GameObject canvas;
+    private Sequence _sequence;
+    
+    private int i;
     
     // Start is called before the first frame update
     void Start()
     {
         dialogBox = GameObject.FindWithTag("Dialog");
-        text = GameObject.Find("Canvas/Text");
+        text = GameObject.FindWithTag("GirlText");
+        _text = text.GetComponent<Text>();
+        _sequence = DOTween.Sequence();
+        
+        i = 0;
     }
 
     // Update is called once per frame
@@ -24,9 +35,31 @@ public class DialogBox : MonoBehaviour
     {
         Debug.Log(WorldToUIPos(dialogBox.transform.position) + "dialogBox.transform.position");
         Debug.Log(text.transform.position - canvas.transform.position + "text.transform.position");
+        
+        if (Input.GetKeyDown(KeyCode.Space) && i == 1)
+        {
+            dialogBox.transform.DOScale(new Vector3(0.3f, 0.3f, 1), 1);
+            text.GetComponent<Text>().DOColor(new Color(1, 1, 1, 1), 1);
+            _text.DOText("    有人吗！", 1).OnComplete(Text1);
+            i++;
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && i == 0)
+        {
+            dialogBox.transform.DOScale(new Vector3(0.3f, 0.3f, 1), 1);
+            _text.DOText("    喂！", 1).OnComplete(Text1);
+            i++;
+        }
+
         text.transform.position = canvas.transform.position + WorldToUIPos(dialogBox.transform.position);
     }
 
+    private void Text1()
+    {
+        
+        dialogBox.transform.DOScale(new Vector3(0, 0, 1), 1).SetDelay(1);
+        text.GetComponent<Text>().DOColor(new Color(1, 1, 1, 0), 1).SetDelay(1);
+    }
+    
     /// <summary>
     /// 世界坐标转UI坐标（localPosition）
     /// </summary>

@@ -8,6 +8,7 @@ TagManager:
   - MusicController
   - GameOverMenu
   - Dialog
+  - GirlText
   layers:
   - Default
   - TransparentFX
