@@ -22,6 +22,7 @@ public class EnemyBehavior : MonoBehaviour
 
     private void ApproachPlayer()
     {
+<<<<<<< HEAD
         transform.position = Vector3.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * speed);
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -30,6 +31,9 @@ public class EnemyBehavior : MonoBehaviour
         {
             StartCoroutine(SpeedRecover());
         }
+=======
+        transform.position = Vector3.MoveTowards(transform.position, playerTransform.position,Time.deltaTime * speed)
+>>>>>>> parent of ab363c9... 场景中灯光的一些交互
     }
 
     IEnumerator SpeedRecover()

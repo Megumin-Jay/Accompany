@@ -2705,7 +2705,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1.44
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
@@ -4587,7 +4587,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1.44
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
@@ -4765,7 +4765,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1.44
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
@@ -5800,7 +5800,6 @@ GameObject:
   - component: {fileID: 1811410606}
   - component: {fileID: 1811410605}
   - component: {fileID: 1811410607}
-  - component: {fileID: 1811410608}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5851,6 +5850,7 @@ MonoBehaviour:
     type: 3}
   enemy: {fileID: 9178216533197150469, guid: b3ea9703261753c4dbbf61e14de57954, type: 3}
   enemy: {fileID: 2890566666811871870, guid: d7065b69638057b4c9eba37e518affb0, type: 3}
+<<<<<<< HEAD
 --- !u!114 &1811410608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5880,6 +5880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 969a1290878a0c94f894046e9f45ef69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of ab363c9... 场景中灯光的一些交互
 --- !u!1 &1840871429
 GameObject:
   m_ObjectHideFlags: 0
