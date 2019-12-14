@@ -18,6 +18,10 @@ public class ShootWave : MonoBehaviour
     private float intervalOfWave;//每一次射击，上一个声波与下一个声波产生间隔
 
     private float time;//计时器
+
+    [SerializeField]
+    private float waveSpeed;
+
     private Animator playerAnimator;
 
     private void Awake()
@@ -63,7 +67,7 @@ public class ShootWave : MonoBehaviour
             //go.transform.position = transform.position + dir*0.5f;//是否需要一个系数
             go.transform.position = transform.position;//是否需要一个系数
             go.transform.right = dir;
-            go.GetComponent<Rigidbody2D>().velocity = dir;//要不要加一个系数
+            go.GetComponent<Rigidbody2D>().velocity = dir * waveSpeed;//要不要加一个系数
             yield return new WaitForSeconds(intervalOfWave);
         }
     }

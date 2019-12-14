@@ -33,8 +33,8 @@ public class DialogBox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(WorldToUIPos(dialogBox.transform.position) + "dialogBox.transform.position");
-        Debug.Log(text.transform.position - canvas.transform.position + "text.transform.position");
+        //Debug.Log(WorldToUIPos(dialogBox.transform.position) + "dialogBox.transform.position");
+        //Debug.Log(text.transform.position - canvas.transform.position + "text.transform.position");
         
         if (Input.GetKeyDown(KeyCode.Space) && i == 1)
         {

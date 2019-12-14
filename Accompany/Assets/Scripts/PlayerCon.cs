@@ -94,7 +94,7 @@ public class PlayerCon : MonoBehaviour
             _animator.SetFloat("LastSpeedY", lastSpeedY);
 
             //当前动画状态名
-            Debug.Log(_animator.GetCurrentAnimatorClipInfo(0)[0].clip.name);
+            //Debug.Log(_animator.GetCurrentAnimatorClipInfo(0)[0].clip.name);
         }
     }
 

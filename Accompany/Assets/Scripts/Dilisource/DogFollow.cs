@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class DogFollow : MonoBehaviour
 {
-    private Vector3 playerPosition;
+    private Transform playerTransform;
+    private Animator playerAnimator;
+    private Animator dogAnimator;
 
     [Header("狗和人的最小距离")]
     [Range(0, 5)]
@@ -14,10 +16,12 @@ public class DogFollow : MonoBehaviour
     [Range(0, 1.5f)]
     [SerializeField]
     private float moveBuffer;
+
     [Header("狗靠近人所需要的大致时间")]
     [Range(0, 2)]
     [SerializeField]
     private float smoothTime;
+    private Vector3 targetPos;
 
 
     [SerializeField]
@@ -27,57 +31,73 @@ public class DogFollow : MonoBehaviour
     private float actionTime;//狗反应时间
     private float time;
     private float flag = 0;
-    public Vector3 currentVelocity = Vector3.zero;
-    private Vector3 targetPos;
+
+    private Vector3 currentVelocity = Vector3.zero;
  
     private void Awake()
     {
         //TODO
         //找到player的Transform组件
-        playerPosition = GameObject.FindWithTag("Player").GetComponent<Transform>().position;
+        playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
+        playerAnimator = GameObject.FindWithTag("Player").GetComponent<Animator>();
+        dogAnimator = GetComponent<Animator>();
     }
     private void Update()
     {
-        //if(人物开始行走)
-        //{
-        //    time += Time.deltaTimel; 
-        //}
-        targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        targetPos.z = 0;
+        if(playerAnimator.GetCurrentAnimatorClipInfo(0)[0].clip.name.Contains("Walk"))
+        {
+            time += Time.deltaTime;
+        }
     }
 
     private void LateUpdate()
     {
-        //if(time > actionTime)
-        if (Vector3.Distance(transform.position, targetPos//注意要改成playerPosition
-            ) >= minDistance && Vector3.Distance(transform.position, targetPos) <= minDistance + moveBuffer)
+        if (time > actionTime)
         {
-            Debug.Log("1st");
-            if (flag == 0)
+            if (Vector3.Distance(transform.position, playerTransform.position) >= minDistance && Vector3.Distance(transform.position, playerTransform.position) <= minDistance + moveBuffer)
             {
-                FollowWithPlayer();
-            }
-            else
-            {
-                transform.position = Vector3.Lerp(transform.position, targetPos, coefficient);
-                if (Vector3.Distance(transform.position, targetPos) < 0.05f)
+                //Debug.Log("1st");
+                if (flag == 0)
                 {
-                    flag = 0;
+                    FollowWithPlayer();
                 }
+                else
+                {
+                    transform.position = Vector3.Lerp(transform.position, playerTransform.position, coefficient);
+                    //Debug.Log("3rd");
+                    if (Vector3.Distance(transform.position, playerTransform.position) < 0.01f)
+                    {
+                        flag = 0;
+                    }
+                }
+                dogAnimator.SetBool("isWalk", true);
+            }
+            else if (Vector3.Distance(transform.position, playerTransform.position) > minDistance + moveBuffer)
+            {
+                //Debug.Log("2nd");
+                FollowWithPlayer();
+                flag = 1;
+                dogAnimator.SetBool("isWalk", true);
             }
         }
-        else if (Vector3.Distance(transform.position, targetPos//注意要改成playerPosition
-            ) > minDistance + moveBuffer)
+        if (Mathf.Abs(Vector3.Distance(transform.position, playerTransform.position) - minDistance) < 0.05f)
         {
-            Debug.Log("2nd");
-            FollowWithPlayer();
-            flag = 1;
+            dogAnimator.SetBool("isWalk", false);
+            time = 0;
+        }
+        if (playerTransform.position.x > transform.position.x)
+        {
+            dogAnimator.SetBool("isLeft", false);
+        }
+        else
+        {
+            dogAnimator.SetBool("isLeft", true);
         }
     }
 
     private void FollowWithPlayer()
     {
         //transform.position = Vector3.SmoothDamp(transform.position, targetPos, ref currentVelocity, smoothTime);
-        transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, playerTransform.position, Time.deltaTime);
     }
 }

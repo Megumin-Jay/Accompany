@@ -22,7 +22,19 @@ public class EnemyBehavior : MonoBehaviour
 
     private void ApproachPlayer()
     {
-        transform.position = Vector3.MoveTowards(transform.position, playerTransform.position,Time.deltaTime * speed)
+        transform.position = Vector3.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * speed);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.name == "BarkWave(Clone)")
+        {
+            StartCoroutine(SpeedRecover());
+        }
     }
 
+    IEnumerator SpeedRecover()
+    {
+        yield return new WaitForSeconds(1.5f);
+        speed = 0.5f;
+    }
 }
