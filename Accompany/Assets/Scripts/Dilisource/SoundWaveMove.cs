@@ -17,13 +17,15 @@ public class SoundWaveMove : MonoBehaviour
     [Range(0,0.1f)]
     [SerializeField]
     private float deltaColor;//协程中一帧增加的alpha值
+
     private void Awake()
     {
         waveTransform = this.transform;
-
     }
     private void Update()
     {
+        //TODO
+        //尺寸渐变
         waveTransform.localScale = Vector3.Lerp(waveTransform.localScale, targetScale, Time.time);
     }
 
@@ -48,7 +50,6 @@ public class SoundWaveMove : MonoBehaviour
             Color tempColor = sprite.color;
             tempColor.a += i;
             sprite.color = tempColor;
-
             yield return 0;
         }
         yield return new WaitForSeconds(lifeTime);

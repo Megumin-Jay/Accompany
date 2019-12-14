@@ -11,11 +11,19 @@ public class ObjectPool : MonoBehaviour
     private GameObject soundWave;
     private List<GameObject> soundWaveList = new List<GameObject>();
     private const int soundWaveCount = 5;
+
+    [Header("敌人预制体")]
+    [SerializeField]
+    private GameObject enemy;
+    private List<GameObject> enemyList = new List<GameObject>();
+    private const int enemyNumber = 5;
     private void Awake()
     {
         Instance = this;
         InitSoundWave();
+        InitEnemy();
     }
+    #region 声波
     private void InitSoundWave()
     {
         for (int i = 0; i < soundWaveCount; i++)
@@ -44,5 +52,36 @@ public class ObjectPool : MonoBehaviour
         }
         return InstantiateSoundWave();
     }
+    #endregion
 
+    #region 敌人
+    private GameObject InstantiateEnemy()
+    {
+        GameObject go = Instantiate(enemy, transform);
+        enemyList.Add(go);
+        return go;
+    }
+    private void InitEnemy()
+    {
+        for(int i = 0; i < enemyNumber; i++)
+        {
+            GameObject go = InstantiateEnemy();
+            go.SetActive(false);
+        }
+    }
+    public GameObject GetEnemy()
+    {
+        GameObject temp;
+        for(int i = 0; i < enemyList.Count; i++)
+        {
+            temp = enemyList[i];
+            if(temp.activeInHierarchy == false)
+            {
+                temp.SetActive(true);
+                return temp;
+            }
+        }
+        return InstantiateEnemy();
+    }
+    #endregion
 }
