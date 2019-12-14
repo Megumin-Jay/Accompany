@@ -3459,6 +3459,7 @@ GameObject:
   - component: {fileID: 1144421952}
   - component: {fileID: 1144421953}
   - component: {fileID: 1144421956}
+  - component: {fileID: 1144421957}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3584,6 +3585,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1144421957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144421951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c8c0e3458e16f409fbf9fb24df00cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfWave: 3
+  intervalOfShoot: 1
+  intervalOfWave: 0.4
 --- !u!1 &1153689109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,6 +5401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1811410606}
   - component: {fileID: 1811410605}
+  - component: {fileID: 1811410607}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5419,6 +5436,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1811410607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811410604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac906837b5bb42046a58b8e0cf0987ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundWave: {fileID: 2890566666811871870, guid: d7065b69638057b4c9eba37e518affb0,
+    type: 3}
+  enemy: {fileID: 2890566666811871870, guid: d7065b69638057b4c9eba37e518affb0, type: 3}
 --- !u!1 &1840871429
 GameObject:
   m_ObjectHideFlags: 0

@@ -34,7 +34,7 @@ public class DogFollow : MonoBehaviour
     {
         //TODO
         //找到player的Transform组件
-        //playerPosition = GameObject.FindWithTag("Player").GetComponent<Transform>().position;
+        playerPosition = GameObject.FindWithTag("Player").GetComponent<Transform>().position;
     }
     private void Update()
     {
