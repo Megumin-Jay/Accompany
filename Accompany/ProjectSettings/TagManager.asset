@@ -10,6 +10,8 @@ TagManager:
   - Dialog
   - GirlText
   - Enemy
+  - ShiningLight
+  - SwitchLight
   layers:
   - Default
   - TransparentFX

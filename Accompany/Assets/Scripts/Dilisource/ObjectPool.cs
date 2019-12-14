@@ -19,6 +19,8 @@ public class ObjectPool : MonoBehaviour
     private const int enemyNumber = 5;
     private void Awake()
     {
+        Screen.SetResolution(1920, 1080, false);
+
         Instance = this;
         InitSoundWave();
         InitEnemy();

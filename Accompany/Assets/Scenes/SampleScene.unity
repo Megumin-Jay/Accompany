@@ -2670,7 +2670,7 @@ GameObject:
   - component: {fileID: 705676553}
   m_Layer: 0
   m_Name: Streetlight (1)
-  m_TagString: Untagged
+  m_TagString: ShiningLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3254,9 +3254,10 @@ GameObject:
   m_Component:
   - component: {fileID: 935719031}
   - component: {fileID: 935719032}
+  - component: {fileID: 935719033}
   m_Layer: 0
   m_Name: Sprite Light 2D (6)
-  m_TagString: Untagged
+  m_TagString: SwitchLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3314,6 +3315,32 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!61 &935719033
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935719030}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -3.9164574}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 5.475764}
+  m_EdgeRadius: 0
 --- !u!1 &968462320
 GameObject:
   m_ObjectHideFlags: 0
@@ -3785,6 +3812,7 @@ GameObject:
   - component: {fileID: 1144421953}
   - component: {fileID: 1144421956}
   - component: {fileID: 1144421959}
+  - component: {fileID: 1144421960}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3972,6 +4000,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14616537, y: 0.29}
   m_EdgeRadius: 0
+--- !u!114 &1144421960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144421951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f184f8942a5bf14b846f4bf98ea1c16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1153689109
 GameObject:
   m_ObjectHideFlags: 0
@@ -4552,7 +4592,7 @@ GameObject:
   - component: {fileID: 1474438388}
   m_Layer: 0
   m_Name: Streetlight (3)
-  m_TagString: Untagged
+  m_TagString: ShiningLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4730,7 +4770,7 @@ GameObject:
   - component: {fileID: 1504587148}
   m_Layer: 0
   m_Name: Streetlight (2)
-  m_TagString: Untagged
+  m_TagString: ShiningLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5801,6 +5841,7 @@ GameObject:
   - component: {fileID: 1811410605}
   - component: {fileID: 1811410607}
   - component: {fileID: 1811410608}
+  - component: {fileID: 1811410609}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5850,7 +5891,6 @@ MonoBehaviour:
   soundWave: {fileID: 2890566666811871870, guid: d7065b69638057b4c9eba37e518affb0,
     type: 3}
   enemy: {fileID: 9178216533197150469, guid: b3ea9703261753c4dbbf61e14de57954, type: 3}
-  enemy: {fileID: 2890566666811871870, guid: d7065b69638057b4c9eba37e518affb0, type: 3}
 --- !u!114 &1811410608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5877,7 +5917,16 @@ MonoBehaviour:
   - {fileID: 733817721}
   - {fileID: 532112898}
   enemy: {fileID: 9178216533197150469, guid: b3ea9703261753c4dbbf61e14de57954, type: 3}
-  m_Script: {fileID: 11500000, guid: 969a1290878a0c94f894046e9f45ef69, type: 3}
+--- !u!114 &1811410609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811410604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4be7bb6fc2a3a8428c4900ec35a9bb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1840871429
@@ -5990,9 +6039,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1895372882}
   - component: {fileID: 1895372883}
+  - component: {fileID: 1895372884}
   m_Layer: 0
   m_Name: Sprite Light 2D (7)
-  m_TagString: Untagged
+  m_TagString: SwitchLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6050,6 +6100,32 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!61 &1895372884
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895372881}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -4.92}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 5.475764}
+  m_EdgeRadius: 0
 --- !u!1 &2018509232
 GameObject:
   m_ObjectHideFlags: 0
