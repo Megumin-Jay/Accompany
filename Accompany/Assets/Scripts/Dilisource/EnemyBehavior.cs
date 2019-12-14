@@ -4,16 +4,25 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
-    private Vector3 playerPosition;
-
+    private Transform playerTransform;
+    public float speed;
     private void Awake()
     {
-        GameObject player = GameObject.FindWithTag("Player");
-        if(player == null)
+        playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
+        if(playerTransform == null)
         {
             return;
         }
-        playerPosition = player.GetComponent<Transform>().position;
+    }
+
+    private void Update()
+    {
+        ApproachPlayer();
+    }
+
+    private void ApproachPlayer()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, playerTransform.position,Time.deltaTime * speed)
     }
 
 }

@@ -64,9 +64,16 @@ public class SoundWaveMove : MonoBehaviour
         //怪物标签的统一
         if (collision.CompareTag("Enemy"))
         {
-            gameObject.SetActive(false);
-            //TODO
-            //怪物造成伤害or死亡
+            if(gameObject.name == "BarkWave")
+            {
+                //怪物减速
+                Destroy(this.gameObject);
+            }
+            else if(gameObject.name == "SoundWave")
+            {
+                //怪物死亡
+                gameObject.SetActive(false);
+            }
         }
     }
 }
