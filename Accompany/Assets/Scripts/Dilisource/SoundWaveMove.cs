@@ -6,7 +6,7 @@ public class SoundWaveMove : MonoBehaviour
 {
     private SpriteRenderer sprite;
     private Transform waveTransform;
-    private Vector3 startScale = new Vector3(0.5f, 0.5f, 0.5f);
+    private Vector3 startScale;
     [SerializeField]
     private Vector3 targetScale;
 
@@ -21,12 +21,14 @@ public class SoundWaveMove : MonoBehaviour
     private void Awake()
     {
         waveTransform = this.transform;
+        startScale = waveTransform.localScale;
+        sprite = GetComponent<SpriteRenderer>();
     }
     private void Update()
     {
         //TODO
         //尺寸渐变
-        waveTransform.localScale = Vector3.Lerp(waveTransform.localScale, targetScale, Time.time);
+        waveTransform.localScale = Vector3.Lerp(waveTransform.localScale, targetScale, Time.deltaTime);
     }
 
     private void OnEnable()
@@ -60,7 +62,7 @@ public class SoundWaveMove : MonoBehaviour
     {
         //TODO
         //怪物标签的统一
-        if (collision.CompareTag(""))
+        if (collision.CompareTag("Enemy"))
         {
             gameObject.SetActive(false);
             //TODO
