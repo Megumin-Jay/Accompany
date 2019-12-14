@@ -16,24 +16,17 @@ public class PlayerCon : MonoBehaviour
     /*键盘响应*/
     private float horizontal;
     private float vertical;
-    
-    /*按键状态*/
-    enum MoveDir
-    {
-        none,
-        Up,
-        Down,
-        Left,
-        Right
-    }
-    /*默认*/
-    private MoveDir _moveDir = MoveDir.none;
 
     /*速度因子 X和Y方向*/
     [SerializeField]
     private float speedFactorX;
     [SerializeField]
     private float speedFactorY;
+
+    private float leftBorder;
+    private float rightBorder;
+    private float UpBorder;
+    private float DownBorder;
 
     /*刚体*/
     private Rigidbody2D rb;
@@ -67,42 +60,48 @@ public class PlayerCon : MonoBehaviour
     {
         rb = this.GetComponent<Rigidbody2D>();
         _animator = this.GetComponent<Animator>();
+
+        leftBorder = -23.5f;
+        rightBorder = 23.5f;
+        UpBorder = 0.7f;
+        DownBorder = -2.2f;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log(UICon.Instance.CanPull);
         //逐一检测响应
-        CheckInputKey();
-        
-        //水平方向键盘响应
-        if(_moveDir == MoveDir.Left || _moveDir == MoveDir.Right)
-            horizontal = Input.GetAxisRaw("Horizontal");
-        //竖直方向键盘响应
-        if(_moveDir == MoveDir.Up || _moveDir == MoveDir.Down)
-            vertical = Input.GetAxisRaw("Vertical");
-        
-        
-        //速度 x和y方向的矢量和 
-        moveSpeed = Vector2.right * (horizontal) * speedFactorX + Vector2.up * (vertical) * speedFactorY;
-
-        //若这一帧有速度
-        if (Mathf.Abs(moveSpeed.x) > Mathf.Epsilon || Mathf.Abs(moveSpeed.y) > Mathf.Epsilon)
+        if (UICon.Instance.CanPull)
         {
-            lastSpeedX = moveSpeed.x;
-            lastSpeedY = moveSpeed.y;
+            CheckInputKey();
+
+            //速度 x和y方向的矢量和 
+            moveSpeed = Vector2.right * (horizontal) * speedFactorX + Vector2.up * (vertical) * speedFactorY;
+
+            //若这一帧有速度
+            if (Mathf.Abs(moveSpeed.x) > Mathf.Epsilon || Mathf.Abs(moveSpeed.y) > Mathf.Epsilon)
+            {
+                lastSpeedX = moveSpeed.x;
+                lastSpeedY = moveSpeed.y;
+            }
+
+            //设置动画参数
+            _animator.SetFloat("Horizontal", horizontal);
+            _animator.SetFloat("Vertical", vertical);
+            _animator.SetFloat("Speed", moveSpeed.sqrMagnitude);
+            _animator.SetFloat("LastSpeedX", lastSpeedX);
+            _animator.SetFloat("LastSpeedY", lastSpeedY);
+
+            //当前动画状态名
+            Debug.Log(_animator.GetCurrentAnimatorClipInfo(0)[0].clip.name);
         }
-        
-        //设置动画参数
-        _animator.SetFloat("Horizontal", horizontal);    
-        _animator.SetFloat("Vertical",vertical);
-        _animator.SetFloat("Speed",moveSpeed.sqrMagnitude);
-        _animator.SetFloat("LastSpeedX",lastSpeedX);
-        _animator.SetFloat("LastSpeedY",lastSpeedY);
     }
 
     void FixedUpdate()
     {
+        this.transform.position = new Vector3(Mathf.Clamp(this.transform.position.x, leftBorder, rightBorder),
+            Mathf.Clamp(this.transform.position.y, DownBorder, UpBorder), this.transform.position.z);
         rb.MovePosition(rb.position + moveSpeed * Time.fixedDeltaTime);
     }
     

@@ -26,13 +26,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UICon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A8DC567-3A4E-4788-B5AC-1561569747AB/ad/d766489b/Input.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/UICon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" />
       </list>
     </option>
   </component>
@@ -73,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576239078301</updated>
       <workItem from="1576239094380" duration="11950000" />
+      <workItem from="1576285957349" duration="10863000" />
     </task>
     <servers />
   </component>
@@ -84,7 +89,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\HP\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
@@ -9,8 +9,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CameraMove.cs" t="Include" />
           <e p="PlayerCon.cs" t="Include" />
           <e p="Test.cs" t="Include" />
+          <e p="UICon.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
