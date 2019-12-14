@@ -10,6 +10,17 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CameraMove.cs" t="Include" />
+          <e p="DialogBox.cs" t="Include" />
+          <e p="Dilisource" t="Include">
+            <e p="DogFollow.cs" t="Include" />
+            <e p="DogFollowPhysically.cs" t="Include" />
+            <e p="DogFollowPlan.cs" t="Include" />
+            <e p="EnemyBehavior.cs" t="Include" />
+            <e p="ObjectPool.cs" t="Include" />
+            <e p="ShootWave.cs" t="Include" />
+            <e p="SoundWaveMove.cs" t="Include" />
+            <e p="SpawnEnemy.cs" t="Include" />
+          </e>
           <e p="PlayerCon.cs" t="Include" />
           <e p="Test.cs" t="Include" />
           <e p="UICon.cs" t="Include" />
