@@ -36,9 +36,7 @@
             <e p="SoundWaveMove.cs" t="Include" />
             <e p="SpawnEnemy.cs" t="Include" />
           </e>
-          <e p="EnvirCon.cs" t="Include" />
           <e p="PlayerCon.cs" t="Include" />
-          <e p="PlayerEnvir.cs" t="Include" />
           <e p="Test.cs" t="Include" />
           <e p="UICon.cs" t="Include" />
         </e>
