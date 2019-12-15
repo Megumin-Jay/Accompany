@@ -28,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dilisource/DogFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dilisource/ShootWave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogBox.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,6 +46,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Dilisource/ShootWave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScreenFade.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScreenFade.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +92,7 @@
       <workItem from="1576312972379" duration="248000" />
       <workItem from="1576313335433" duration="3273000" />
       <workItem from="1576317011740" duration="8888000" />
-      <workItem from="1576370988613" duration="2639000" />
+      <workItem from="1576370988613" duration="5780000" />
     </task>
     <servers />
   </component>
