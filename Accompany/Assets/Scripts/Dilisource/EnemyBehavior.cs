@@ -24,6 +24,7 @@ public class EnemyBehavior : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * speed);
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.name == "BarkWave(Clone)")
@@ -35,6 +36,10 @@ public class EnemyBehavior : MonoBehaviour
     IEnumerator SpeedRecover()
     {
         yield return new WaitForSeconds(1.5f);
+        speed = 0.5f;
+    }
+    private void OnDisable()
+    {
         speed = 0.5f;
     }
 }

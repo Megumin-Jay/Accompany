@@ -68,7 +68,7 @@ public class SoundWaveMove : MonoBehaviour
             {
                 //怪物减速
                 Destroy(this.gameObject);//销毁蓝波
-                collision.GetComponent<EnemyBehavior>().speed = 0.4f;//云的速度受限
+                collision.GetComponent<EnemyBehavior>().speed = 0.3f;//云的速度受限
             }
             else if(gameObject.name == "SoundWave(Clone)")
             {
