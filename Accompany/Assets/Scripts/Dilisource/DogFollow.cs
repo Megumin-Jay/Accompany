@@ -31,9 +31,16 @@ public class DogFollow : MonoBehaviour
     private float actionTime;//狗反应时间
     private float time;
     private float flag = 0;
+    [SerializeField]
+    private float leaveSpeed;
 
     private Vector3 currentVelocity = Vector3.zero;
  
+    private enum DogStatus
+    {
+        Follow,Leave
+    }
+    private DogStatus dogStatus = DogStatus.Follow;
     private void Awake()
     {
         //TODO
@@ -48,50 +55,67 @@ public class DogFollow : MonoBehaviour
         {
             time += Time.deltaTime;
         }
+        if(playerTransform.transform.position.x > 21)
+        {
+            dogStatus = DogStatus.Leave;
+        }
     }
 
     private void LateUpdate()
     {
-        if (time > actionTime)
+        switch(dogStatus)
         {
-            if (Vector3.Distance(transform.position, playerTransform.position) >= minDistance && Vector3.Distance(transform.position, playerTransform.position) <= minDistance + moveBuffer)
-            {
-                //Debug.Log("1st");
-                if (flag == 0)
+            case DogStatus.Follow:
+                if (time > actionTime)
                 {
-                    FollowWithPlayer();
-                }
-                else
-                {
-                    transform.position = Vector3.Lerp(transform.position, playerTransform.position, coefficient);
-                    //Debug.Log("3rd");
-                    if (Vector3.Distance(transform.position, playerTransform.position) < 0.01f)
+                    if (Vector3.Distance(transform.position, playerTransform.position) >= minDistance && Vector3.Distance(transform.position, playerTransform.position) <= minDistance + moveBuffer)
                     {
-                        flag = 0;
+                        //Debug.Log("1st");
+                        if (flag == 0)
+                        {
+                            FollowWithPlayer();
+                        }
+                        else
+                        {
+                            transform.position = Vector3.Lerp(transform.position, playerTransform.position, coefficient);
+                            //Debug.Log("3rd");
+                            if (Vector3.Distance(transform.position, playerTransform.position) < 0.01f)
+                            {
+                                flag = 0;
+                            }
+                        }
+                        dogAnimator.SetBool("isWalk", true);
+                    }
+                    else if (Vector3.Distance(transform.position, playerTransform.position) > minDistance + moveBuffer)
+                    {
+                        //Debug.Log("2nd");
+                        FollowWithPlayer();
+                        flag = 1;
+                        dogAnimator.SetBool("isWalk", true);
                     }
                 }
-                dogAnimator.SetBool("isWalk", true);
-            }
-            else if (Vector3.Distance(transform.position, playerTransform.position) > minDistance + moveBuffer)
-            {
-                //Debug.Log("2nd");
-                FollowWithPlayer();
-                flag = 1;
-                dogAnimator.SetBool("isWalk", true);
-            }
+                break;
+            case DogStatus.Leave:
+                Leave();
+                break;
+
         }
+
         if (Mathf.Abs(Vector3.Distance(transform.position, playerTransform.position) - minDistance) < 0.05f)
         {
             dogAnimator.SetBool("isWalk", false);
             time = 0;
         }
-        if (playerTransform.position.x > transform.position.x)
+        if(dogStatus == DogStatus.Follow)
         {
-            dogAnimator.SetBool("isLeft", false);
-        }
-        else
-        {
-            dogAnimator.SetBool("isLeft", true);
+            if (playerTransform.position.x > transform.position.x)
+            {
+                dogAnimator.SetBool("isLeft", false);
+            }
+            else
+            {
+                dogAnimator.SetBool("isLeft", true);
+            }
         }
     }
 
@@ -99,5 +123,21 @@ public class DogFollow : MonoBehaviour
     {
         //transform.position = Vector3.SmoothDamp(transform.position, targetPos, ref currentVelocity, smoothTime);
         transform.position = Vector3.Lerp(transform.position, playerTransform.position, Time.deltaTime);
+    }
+
+    private void Leave()
+    {
+        transform.Translate(Vector3.right * Time.deltaTime * leaveSpeed);
+    }
+    private void OnBecameInvisible()
+    {
+        if(transform.position.x < 0)
+        {
+            return;
+        }
+        else
+        {
+            Debug.Log("Game Over");
+        }
     }
 }

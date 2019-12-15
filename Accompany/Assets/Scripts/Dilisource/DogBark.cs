@@ -39,7 +39,7 @@ public class DogBark : MonoBehaviour
     private void Bark(Vector3 target)
     {
         Vector3 temp = Vector3.Normalize(target - transform.position);
-        GameObject go = Instantiate(barkWave, transform);
+        GameObject go = Instantiate(barkWave);
         go.transform.position = transform.position + temp * 0.5f;//是否需要一个系数
         go.transform.right = temp;
         go.GetComponent<Rigidbody2D>().velocity = temp;//要不要加一个系数

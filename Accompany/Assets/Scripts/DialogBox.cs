@@ -28,6 +28,7 @@ public class DialogBox : MonoBehaviour
     public GameObject canvas;
     
     private int i;
+    private int j;
 
     private float localTime;
     
@@ -84,18 +85,19 @@ public class DialogBox : MonoBehaviour
             //_text.DOText("    喂！", 1).OnComplete(Text1);
         }
 
-        if ((int) player.transform.position.x == 22)
+        if ((int) player.transform.position.x == 21 && j == 0)
         {
             _momText.DOText("    回来就好", 1).OnComplete(Text3);
-            momDialog.transform.DOScale(new Vector3(0.2f, 0.2f, 1), 1);
+            momDialog.transform.DOScale(new Vector3(0.3f, 0.3f, 1), 1);
             momText.GetComponent<Text>().DOColor(new Color(1, 1, 1, 1), 1);
+            j++;
         }
 
         text.transform.position = canvas.transform.position + WorldToUIPos(dialogBox.transform.position);
 
         dogText.transform.position = canvas.transform.position + WorldToUIPos(dogDialog.transform.position);
 
-        momText.transform.position = canvas.transform.position + WorldToUIPos(momDialog.transform.position);
+        momText.transform.position = canvas.transform.position + WorldToUIPos(momDialog.transform.position) + new Vector3(0,10.0f,0);
     }
 
     private void Text1()
