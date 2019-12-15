@@ -75,7 +75,7 @@ public class PlayerCon : MonoBehaviour
         if (UICon.Instance.CanPull)
         {
             CheckInputKey();
-
+            Debug.Log(horizontal);
             //速度 x和y方向的矢量和 
             moveSpeed = Vector2.right * (horizontal) * speedFactorX + Vector2.up * (vertical) * speedFactorY;
 
@@ -133,29 +133,59 @@ public class PlayerCon : MonoBehaviour
     void ChangeKeyPressState(KeyCode kcode,bool message)
     {
         //横向移动
-        if (kcode == A || kcode == Left || kcode == D || kcode == Right)
+        if (kcode == A || kcode == Left)
         {
             if (message)
             {
-                horizontal = Input.GetAxisRaw("Horizontal");
+                horizontal = -1;
                 vertical = 0;
             }
             else
             {
-                horizontal = 0;
+                if(horizontal != 1)
+                    horizontal = 0;
+            }
+        }
+
+        if (kcode == D || kcode == Right)
+        {
+            if (message)
+            {
+                horizontal = 1;
+                vertical = 0;
+            }
+            else
+            {
+                if(horizontal != -1)
+                    horizontal = 0;
             }
         }
         //纵向移动
-        if (kcode == W || kcode == Up || kcode == S || kcode == Down)
+        if (kcode == W || kcode == Up)
         {
             if (message)
             {
-                vertical = Input.GetAxisRaw("Vertical");
+                vertical = 1;
                 horizontal = 0;
             }
             else
             {
-                vertical = 0;
+                if(vertical != -1)
+                    vertical = 0;
+            }
+        }
+
+        if (kcode == S || kcode == Down)
+        {
+            if (message)
+            {
+                vertical = -1;
+                horizontal = 0;
+            }
+            else
+            {
+                if(vertical != 1)
+                    vertical = 0;
             }
         }
     }
