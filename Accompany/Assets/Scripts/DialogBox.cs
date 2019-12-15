@@ -10,15 +10,19 @@ public class DialogBox : MonoBehaviour
     /*对话框*/
     private GameObject dialogBox;
     private GameObject dogDialog;
+    private GameObject momDialog;
 
     /*Text*/
     private GameObject text;
     private GameObject dogText;
+    private GameObject momText;
     private Text _text;
     private Text _dogText;
+    private Text _momText;
 
     /*狗*/
     private GameObject dog;
+    private GameObject player;
 
     /*画布*/
     public GameObject canvas;
@@ -32,13 +36,17 @@ public class DialogBox : MonoBehaviour
     {
         dialogBox = GameObject.FindWithTag("Dialog");
         dogDialog = GameObject.FindWithTag("Dialog2");
+        momDialog = GameObject.FindWithTag("Dialog3");
 
         text = GameObject.FindWithTag("GirlText");
         _text = text.GetComponent<Text>();
         dogText = GameObject.FindWithTag("DogText");
         _dogText = dogText.GetComponent<Text>();
+        momText = GameObject.FindWithTag("MomText");
+        _momText = momText.GetComponent<Text>();
 
         dog = GameObject.FindWithTag("Dog");
+        player = GameObject.FindWithTag("Player");
         
         i = 0;
     }
@@ -76,9 +84,18 @@ public class DialogBox : MonoBehaviour
             //_text.DOText("    喂！", 1).OnComplete(Text1);
         }
 
+        if ((int) player.transform.position.x == 22)
+        {
+            _momText.DOText("    回来就好", 1).OnComplete(Text3);
+            momDialog.transform.DOScale(new Vector3(0.2f, 0.2f, 1), 1);
+            momText.GetComponent<Text>().DOColor(new Color(1, 1, 1, 1), 1);
+        }
+
         text.transform.position = canvas.transform.position + WorldToUIPos(dialogBox.transform.position);
 
         dogText.transform.position = canvas.transform.position + WorldToUIPos(dogDialog.transform.position);
+
+        momText.transform.position = canvas.transform.position + WorldToUIPos(momDialog.transform.position);
     }
 
     private void Text1()
@@ -92,6 +109,12 @@ public class DialogBox : MonoBehaviour
     {
         dogDialog.transform.DOScale(new Vector3(0, 0, 1), 1).SetDelay(2);
         dogText.GetComponent<Text>().DOColor(new Color(1, 1, 1, 0), 1).SetDelay(1);
+    }
+
+    private void Text3()
+    {
+        momDialog.transform.DOScale(new Vector3(0, 0, 1), 1).SetDelay(2);
+        momText.GetComponent<Text>().DOColor(new Color(1, 1, 1, 0), 1).SetDelay(1);
     }
     
     /// <summary>
