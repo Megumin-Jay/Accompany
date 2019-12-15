@@ -39,6 +39,7 @@
           <e p="EnvirCon.cs" t="Include" />
           <e p="PlayerCon.cs" t="Include" />
           <e p="PlayerEnvir.cs" t="Include" />
+          <e p="ScreenFade.cs" t="Include" />
           <e p="Test.cs" t="Include" />
           <e p="UICon.cs" t="Include" />
         </e>
