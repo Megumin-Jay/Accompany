@@ -9,23 +9,36 @@ public class DialogBox : MonoBehaviour
 {
     /*对话框*/
     private GameObject dialogBox;
+    private GameObject dogDialog;
 
+    /*Text*/
     private GameObject text;
+    private GameObject dogText;
     private Text _text;
+    private Text _dogText;
+
+    /*狗*/
+    private GameObject dog;
 
     /*画布*/
     public GameObject canvas;
-    private Sequence _sequence;
     
     private int i;
+
+    private float localTime;
     
     // Start is called before the first frame update
     void Start()
     {
         dialogBox = GameObject.FindWithTag("Dialog");
+        dogDialog = GameObject.FindWithTag("Dialog2");
+
         text = GameObject.FindWithTag("GirlText");
         _text = text.GetComponent<Text>();
-        _sequence = DOTween.Sequence();
+        dogText = GameObject.FindWithTag("DogText");
+        _dogText = dogText.GetComponent<Text>();
+
+        dog = GameObject.FindWithTag("Dog");
         
         i = 0;
     }
@@ -35,6 +48,8 @@ public class DialogBox : MonoBehaviour
     {
         //Debug.Log(WorldToUIPos(dialogBox.transform.position) + "dialogBox.transform.position");
         //Debug.Log(text.transform.position - canvas.transform.position + "text.transform.position");
+        if(dog.transform.position.x > -23.5f)
+            localTime += Time.deltaTime;
         
         if (Input.GetKeyDown(KeyCode.Space) && i == 1)
         {
@@ -45,19 +60,38 @@ public class DialogBox : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && i == 0)
         {
+            //_dogText.DOText("   wang", 1);
             dialogBox.transform.DOScale(new Vector3(0.3f, 0.3f, 1), 1);
+            text.GetComponent<Text>().DOColor(new Color(1, 1, 1, 1), 1);
             _text.DOText("    喂！", 1).OnComplete(Text1);
             i++;
         }
 
+        //即狗进入视野范围
+        if ((int)localTime == 1)
+        {
+            _dogText.DOText("   汪...汪...", 1).OnComplete(Text2);
+            dogDialog.transform.DOScale(new Vector3(0.3f, 0.3f, 1), 1);
+            dogText.GetComponent<Text>().DOColor(new Color(1, 1, 1, 1), 1);
+            //_text.DOText("    喂！", 1).OnComplete(Text1);
+        }
+
         text.transform.position = canvas.transform.position + WorldToUIPos(dialogBox.transform.position);
+
+        dogText.transform.position = canvas.transform.position + WorldToUIPos(dogDialog.transform.position);
     }
 
     private void Text1()
     {
         
-        dialogBox.transform.DOScale(new Vector3(0, 0, 1), 1).SetDelay(1);
+        dialogBox.transform.DOScale(new Vector3(0, 0, 1), 1).SetDelay(2);
         text.GetComponent<Text>().DOColor(new Color(1, 1, 1, 0), 1).SetDelay(1);
+    }
+
+    private void Text2()
+    {
+        dogDialog.transform.DOScale(new Vector3(0, 0, 1), 1).SetDelay(2);
+        dogText.GetComponent<Text>().DOColor(new Color(1, 1, 1, 0), 1).SetDelay(1);
     }
     
     /// <summary>

@@ -12,6 +12,9 @@ TagManager:
   - Enemy
   - ShiningLight
   - SwitchLight
+  - DogText
+  - Dog
+  - Dialog2
   layers:
   - Default
   - TransparentFX
